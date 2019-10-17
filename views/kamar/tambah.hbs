@@ -1,0 +1,35 @@
+<center style="background: linear-gradient(
+#005aa7
+,
+#fffde4);">
+    <h3 style="color: white; font-family:'Courier New', Courier, monospace"><b> Tambah Kamar</b></h3>
+    <hr>
+    <hr>
+    <form style="background:linear-gradient(
+#009fff
+,
+#ec2f4b)" action="/admin/kamar/tambah" method="post">
+        <div class="form-group">
+            <label style="color: white;" for="inputno">No Kamar</label>
+            <input type="text" name="no" placeholder="Masukkan Nomor Kamar" id="inputno" class="form-control col-4">
+        </div>
+        <div class="form-group">
+            <label style="color: white;" for="inputjml">Jumlah Tempat Tidur</label>
+            <input type="text" name="jml" placeholder="Masukkan Jumlah TempatTidur" id="inputjml"
+                class="form-control col-4">
+        </div>
+        <div class="form-group">
+            <label style="color: white;" for="inputFasilitas">Fasilitas</label>
+            <input type="text" name="fasilitas" placeholder="Masukkan Tingkat Kualitas Fasilitas Kamar"
+                id="inputFasilitas" class="form-control col-4">
+        </div>
+        <div class="form-group">
+            <label style="color: white;" for="inputHarga">Harga/Malam</label>
+            <input type="text" name="harga" placeholder="Masukkan Nominal Harga Kamar" id="inputHarga"
+                class="form-control col-4">
+        </div>
+        <a href="/admin/kamar" class="btn btn-secondary">Kembali</a>&nbsp;|&nbsp;
+        <button type="submit" class="btn btn-primary">Simpan</button>
+
+    </form>
+</center>
